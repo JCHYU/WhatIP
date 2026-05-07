@@ -1,0 +1,31 @@
+:root {
+  --header-color: rgba(0, 0, 0, 0.1); 
+  --logotext-color: rgba(0, 122, 255, 0.95); 
+  --button-dark-background: black;
+  --button-relo-color: rgba(0, 0, 0, 0.05);
+  --button-dark-background: rgba(255, 255, 255, 0.08);
+  --register-form-bg: #ffffff;
+
+  --card-bg: #ffffff;  
+
+  --text-color: black;
+  --bg-color: white;
+}
+
+html.dark {
+  --header-color: rgba(255, 255, 255, 0.1);
+  --logotext-color: rgba(255, 255, 255, 0.95); 
+  --button-dark-background: white;
+  --button-relo-color: rgba(255, 255, 255, 0.08);
+  --button-dark-background: rgba(123, 182, 224, 0.8);
+  --register-form-bg: #2c2c2c;
+
+  --card-bg: #2c2c2c;
+
+  --text-color: white;
+  --bg-color: black;
+}
+
+body {
+  background-color: var(--bg-color);
+}
